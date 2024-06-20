@@ -1,0 +1,74 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"body": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Unleash your potential by harmonizing your daily tasks and habits with your unique energy rhythms.",
+							"spans": []
+						},
+						"direction": "ltr"
+					}
+				]
+			},
+			"button_label": {
+				"__TYPE__": "FieldContent",
+				"type": "Text",
+				"value": "Try for free"
+			},
+			"button_link": {
+				"__TYPE__": "LinkContent",
+				"value": {
+					"id": "mock_Media_link",
+					"kind": "image/jpeg",
+					"name": "mock_name",
+					"url": "https://source.unsplash.com/daily",
+					"size": "0",
+					"__TYPE__": "FileLink"
+				}
+			},
+			"image": {
+				"url": "https://images.unsplash.com/photo-1619551964399-dad708b59b8b?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwxOXx8MTkyMHxlbnwwfHx8fDE3MTg4NzkyNDJ8MA&ixlib=rb-4.0.3&q=85&rect=0%2C222%2C4272%2C2403&w=1920&h=1080",
+				"alt": "blue and black audio mixer",
+				"origin": {
+					"id": "1l0dOhOPeyQ",
+					"url": "https://images.unsplash.com/photo-1619551964399-dad708b59b8b?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwxOXx8MTkyMHxlbnwwfHx8fDE3MTg4NzkyNDJ8MA&ixlib=rb-4.0.3&q=85",
+					"width": 4272,
+					"height": 2848
+				},
+				"width": 1920,
+				"height": 1080,
+				"edit": {
+					"background": "transparent",
+					"zoom": 1,
+					"crop": {
+						"x": 0,
+						"y": 222
+					}
+				},
+				"credits": null,
+				"__TYPE__": "ImageContent",
+				"thumbnails": {}
+			},
+			"heading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading1",
+						"content": {
+							"text": "Productivity that flows \nwith your life.",
+							"spans": []
+						},
+						"direction": "ltr"
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]
