@@ -3,12 +3,11 @@ import { SliceZone } from "@prismicio/react";
 
 import { createClient } from "@/prismicio";
 import { components } from "@/slices";
+import Layout from "./layout";
 
 export default async function Page() {
   const client = createClient();
   const page = await client.getSingle("homepage");
-
-  return <div>It works!</div>
 
   return <SliceZone slices={page.data.slices} components={components} />;
 }
