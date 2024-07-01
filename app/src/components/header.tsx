@@ -1,6 +1,8 @@
-import { createClient  } from "@/prismicio";
+import { createClient } from "@/prismicio";
 import { PrismicNextLink } from "@prismicio/next";
 import Link from "next/link";
+import Bounded from "./bounded";
+import Logo from "./logo";
 
 export default async function Header() {
 
@@ -8,16 +10,19 @@ export default async function Header() {
   const settings = await client.getSingle('settings');
 
   return (
-    <header className="">
-      <Link href="/">{settings.data.site_title}</Link>
+    <Bounded as="header" className="py-4 md:py-6 lg:py-8">
+      <div className="flex gap-4 items-center justify-between sm:flex-row flex-col">
 
-      <nav>
-        <ul>
-          {settings.data.navigation.map(({label, link}) => (
-            <li><PrismicNextLink field={link}>{label}</PrismicNextLink></li>
-          ))}
-        </ul>
-      </nav>
-    </header>
+        <Link href="/"><Logo /></Link>
+
+        <nav>
+          <ul className="flex">
+            {settings.data.navigation.map(({ label, link }) => (
+              <li><PrismicNextLink field={link} className="p-3">{label}</PrismicNextLink></li>
+            ))}
+          </ul>
+        </nav>
+      </div>
+    </Bounded>
   )
 }
