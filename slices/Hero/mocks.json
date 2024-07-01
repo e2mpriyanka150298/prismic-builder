@@ -81,8 +81,10 @@
 					{
 						"type": "heading1",
 						"content": {
-							"text": "Forth"
-						}
+							"text": "Features for finding focus",
+							"spans": []
+						},
+						"direction": "ltr"
 					}
 				]
 			},
@@ -92,15 +94,17 @@
 					{
 						"type": "paragraph",
 						"content": {
-							"text": "In fugiat duis id eiusmod proident est commodo nostrud amet. Magna cupidatat labore sit quis veniam laboris. Commodo mollit irure consequat commodo ad ullamco."
-						}
+							"text": "Harness our innovative feature set to propel your productivity power. Make every moment count, stress less.",
+							"spans": []
+						},
+						"direction": "ltr"
 					}
 				]
 			},
 			"button_label": {
 				"__TYPE__": "FieldContent",
-				"value": "cry",
-				"type": "Text"
+				"type": "Text",
+				"value": "Try for free"
 			},
 			"button_link": {
 				"__TYPE__": "LinkContent",
@@ -114,26 +118,25 @@
 				}
 			},
 			"image": {
+				"__TYPE__": "ImageContent",
+				"url": "https://images.unsplash.com/photo-1582789760972-c8916cebe649?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwxOHx8Y2l0cnVzJTIwZnJ1aXR8ZW58MHx8fHwxNzE5ODA0MzE1fDA&ixlib=rb-4.0.3&q=85",
+				"alt": "orange fruit in water with water",
 				"origin": {
-					"id": "main",
-					"url": "https://images.unsplash.com/photo-1589321578146-4c1ba445cc88",
-					"width": 3168,
-					"height": 4752
+					"id": "uYM_PQJ8VvY",
+					"url": "https://images.unsplash.com/photo-1582789760972-c8916cebe649?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwxOHx8Y2l0cnVzJTIwZnJ1aXR8ZW58MHx8fHwxNzE5ODA0MzE1fDA&ixlib=rb-4.0.3&q=85",
+					"width": 4380,
+					"height": 2901
 				},
-				"url": "https://images.unsplash.com/photo-1589321578146-4c1ba445cc88",
-				"width": 3168,
-				"height": 4752,
+				"width": 4380,
+				"height": 2901,
 				"edit": {
+					"background": "transparent",
 					"zoom": 1,
 					"crop": {
 						"x": 0,
 						"y": 0
-					},
-					"background": "transparent"
+					}
 				},
-				"credits": null,
-				"alt": null,
-				"__TYPE__": "ImageContent",
 				"thumbnails": {}
 			}
 		},
